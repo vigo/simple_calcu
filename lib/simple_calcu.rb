@@ -4,13 +4,29 @@ module SimpleCalcu
   def self.add(number1, number2)
     number1 + number2
   end
+
   def self.sub(number1, number2)
     number1 - number2
   end
+
   def self.mul(number1, number2)
     number1 * number2
   end
+
   def self.div(number1, number2)
     number1 / number2
+  end
+
+  def self.calculate(number1, operator, number2)
+    case operator
+    when "+"
+      add(number1, number2)
+    when "-"
+      sub(number1, number2)
+    when "*"
+      mul(number1, number2)
+    when "/"
+      div(number1, number2)
+    end
   end
 end
