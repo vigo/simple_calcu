@@ -1,6 +1,6 @@
 # SimpleCalcu
 
-TODO: Write a gem description
+Very simple calculator function for [my blog post][1]!
 
 ## Installation
 
@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'simple_calcu'
+SimpleCalcu::calculate(2, "+", 3)
+```
 
 ## Contributing
 
@@ -29,3 +32,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+
+[1]: http://ugur.ozyilmazel.com/blog/2014/09/23/rubygem-hazirliyoruz/
