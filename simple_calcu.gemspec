@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ugurozyilmazel@gmail.com"]
   spec.summary       = %q{Simple Calculator.}
   spec.description   = %q{Make 4 basic calculations like addition/subtraction/multiplication and division via 2 numbers.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/vigo/simple_calcu"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
