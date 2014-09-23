@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SimpleCalcu::VERSION
   spec.authors       = ["Uğur Özyılmazel"]
   spec.email         = ["ugurozyilmazel@gmail.com"]
-  spec.summary       = %q{Hesap makinesi.}
-  spec.description   = %q{2 sayı ile 4 işlem yapan örnek gem.}
+  spec.summary       = %q{Simple Calculator.}
+  spec.description   = %q{Make 4 basic calculations like addition/subtraction/multiplication and division via 2 numbers.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
