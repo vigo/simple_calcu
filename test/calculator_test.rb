@@ -13,5 +13,7 @@ class CalculatorTest < Minitest::Test
   end
   def test_division
     assert_equal 5, SimpleCalcu::div(10, 2)
+    assert_equal 3.3333333333333335, SimpleCalcu::div(10.0, 3)
+    assert_raises(ZeroDivisionError) { SimpleCalcu::div(10, 0) }
   end
 end
