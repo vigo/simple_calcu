@@ -1,5 +1,7 @@
 require "simple_calcu/version"
 
 module SimpleCalcu
-  # Your code goes here...
+  def self.add(number1, number2)
+    number1 + number2
+  end
 end
