@@ -24,7 +24,7 @@ class CalculatorTest < Minitest::Test
     assert_equal 5, SimpleCalcu::calculate(2, "+", 3)
     assert_equal 8, SimpleCalcu::calculate(5, "+", 3)
     assert_equal 2, SimpleCalcu::calculate(5, "-", 3)
-    assert_equal -1, SimpleCalcu::calculate(0, "-", 1)
+    assert_equal (-1), SimpleCalcu::calculate(0, "-", 1)
     assert_equal 25, SimpleCalcu::calculate(5, "*", 5)
     assert_equal 44, SimpleCalcu::calculate(2, "*", 22)
     assert_equal 2, SimpleCalcu::calculate(4, "/", 2)
